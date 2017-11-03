@@ -40,9 +40,9 @@ public class Cell implements ActionListener{
 
     //Variables you don't need to worry about or care about.
     private JButton button;
-    /**
-     * This constructor is complete and does not need modification
-     */
+    
+      //This constructor is complete and does not need modification
+     
     public Cell(){
         button = new JButton();
         button.addActionListener(this);
