@@ -29,6 +29,7 @@ public class MinesweeperBoard2{
         frame.pack();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
+        addNums();
     }
 
     public MinesweeperBoard2(){
@@ -45,7 +46,7 @@ public class MinesweeperBoard2{
     }
 
     public void addNums(){
-
+     int x = 0;
     }
 
     /**This method is used for testing and will be deleted if using the GUI.
