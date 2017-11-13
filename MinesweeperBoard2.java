@@ -15,12 +15,13 @@ public class MinesweeperBoard2{
     int rows;
     int columns;
     int bombs;
-  
+
     public MinesweeperBoard2(int row, int column, int bomb){
         //Put the constructor here.
         this.rows = row;
         this.columns = column;
         this.bombs = bomb;
+        board = new Cell[rows* columns];
 
         //These pieces are for the GUI. Ignore them.
         JFrame frame = new JFrame();
@@ -38,7 +39,6 @@ public class MinesweeperBoard2{
 
     public void addBombs(int bombs)
     { // throws Exception{
-
         for (int i = 1; i <= bombs; i++) {
             int index = (int) (Math.random() *( rows * columns));
             board[index].setValue(-1);
@@ -46,7 +46,14 @@ public class MinesweeperBoard2{
     }
 
     public void addNums(){
-     int x = 0;
+        int x = 0;
+        for (int i = 0; i <=100; i++) {
+            for (int j = 1; j <= 100; j++){
+                {
+                    
+                }
+            }
+        }
     }
 
     /**This method is used for testing and will be deleted if using the GUI.
@@ -71,5 +78,5 @@ public class MinesweeperBoard2{
         }
         return panel;
     }
-    
+
 }

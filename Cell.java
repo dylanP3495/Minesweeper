@@ -3,7 +3,7 @@
  * Write a description of class Cell here.
  * 
  * @author Dylan
- * @version 11.3.17
+ * @version 11.13.17
  * 
  * Notes: 
  *    0) make "isbomb" method
@@ -41,7 +41,7 @@ public class Cell implements ActionListener{
     //Variables you don't need to worry about or care about.
     private JButton button;
     
-      //This constructor is complete and does not need modification
+    //This constructor is complete and does not need modification
      
     public Cell(){
         button = new JButton();
