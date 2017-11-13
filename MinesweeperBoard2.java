@@ -3,7 +3,7 @@
  * Write a description of class Minesweeper here.
  * 
  * @author Dylan
- * @version 11.3.17
+ * @version 11.13.17
  */
 import java.lang.Math;
 import javax.swing.*;
@@ -62,8 +62,8 @@ public class MinesweeperBoard2{
 
     public void printBoard(){
         int x = 0;
-        for (int i = 0; i < 10; i++){
-            for (int j = 0; j < 10; j++){
+        for (int i = 0; i <= 10; i++){
+            for (int j = 0; j <= 10; j++){
                 System.out.println (board[x].getValue() + " ");
                 x++;
             }
