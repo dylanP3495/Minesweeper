@@ -83,7 +83,7 @@ public class Cell implements ActionListener{
     public void displayValue(){
         if(this.isBomb()){
             button.setText("\u2600");
-            button.setBackground(Color.RED);
+            button.setBackground(Color.GREEN);
         }else if(value!=0){
             button.setText(String.valueOf(value));
         }
