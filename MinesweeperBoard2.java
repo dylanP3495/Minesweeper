@@ -61,12 +61,14 @@ public class MinesweeperBoard2{
      */
 
     public void printBoard(){
+        //needs to be one for loop, not two
         int x = 0;
-        for (int i = 0; i <= 10; i++){
-            for (int j = 0; j <= 10; j++){
-                System.out.println (board[x].getValue() + " ");
+        for (int i = 0; i < 10; i++){
+            for (int j = 0; j < 10; j++){
+                System.out.print (board[x].getValue() + " ");
                 x++;
             }
+            System.out.println ();
         }
     }
 
