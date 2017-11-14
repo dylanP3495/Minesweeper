@@ -42,9 +42,8 @@ public class MinesweeperBoard2{
         for (int i = 1; i <= bombs; i++) {
             int index = (int) (Math.random() *( rows * columns));
             
-            if(value = -1) {
-                
-            
+            if(board[index].getValue() == -1 ){
+                i--;
             }else{
                 board[index].setValue(-1);
             }
