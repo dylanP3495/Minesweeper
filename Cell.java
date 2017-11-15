@@ -27,7 +27,7 @@
  *    4) create the "add Nums" method
  *       *hardest method to make...idk, just do your best for now*
  *    5) make it look pretty (ui)*add spaces in between, (0 0 0 0 0)*
- *    
+ *
  */
 import javax.swing.*;
 import java.awt.*;
