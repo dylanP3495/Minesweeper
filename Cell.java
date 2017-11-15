@@ -79,6 +79,7 @@ public class Cell implements ActionListener{
         button.setEnabled(false);
         displayValue();
     }
+    
 
     public void displayValue(){
         if(this.isBomb()){

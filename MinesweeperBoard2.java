@@ -52,11 +52,10 @@ public class MinesweeperBoard2{
 
     public void addNums(){
         int x = 0;
-        for (int i = 0; i <=100; i++) {
-            for (int j = 1; j <= 100; j++){
-                {
-                    
-                }
+        for (i = 1; i <=rows*columns; i++) {
+            //
+            if (board[index].getValue() == ){
+
             }
         }
     }
