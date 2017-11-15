@@ -41,7 +41,7 @@ public class MinesweeperBoard2{
     { // throws Exception{
         for (int i = 1; i <= bombs; i++) {
             int index = (int) (Math.random() *( rows * columns));
-            
+
             if(board[index].getValue() == -1 ){
                 i--;
             }else{
@@ -53,8 +53,40 @@ public class MinesweeperBoard2{
     public void addNums(){
         int x = 0;
         for (i = 1; i <=rows*columns; i++) {
-            //
-            if (board[index].getValue() == ){
+            // upper bound
+            if (board[index].getValue() ==  ){
+
+            }
+            // lower bound
+            if (board[index].getValue() ==  ){
+
+            }
+            // left bound
+            if (board[index].getValue() ==  ){
+
+            }
+            // right bound
+            if (board[index].getValue() ==  ){
+
+            }
+            //top left
+            if (board[index].getValue() ==  ){
+
+            }
+            // top right
+            if (board[index].getValue() ==  ){
+
+            }
+            // bot left
+            if (board[index].getValue() ==  ){
+
+            }
+            // bot right
+            if (board[index].getValue() ==  ){
+
+            }
+            //fully surounded
+            if (board[index].getValue() ==  ){
 
             }
         }
