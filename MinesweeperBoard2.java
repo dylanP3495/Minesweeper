@@ -92,7 +92,8 @@ public class MinesweeperBoard2{
         }
     }
 
-    /**This method is used for testing and will be deleted if using the GUI.
+    /**
+     * This method is used for testing and will be deleted if using the GUI.
      *  It is still required for all students.
      */
 
