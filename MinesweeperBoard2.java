@@ -53,41 +53,41 @@ public class MinesweeperBoard2{
     public void addNums(){
         int x = 0;
         for (i = 1; i <=rows*columns; i++) {
-            // upper bound
-            if (board[index].getValue() ==  ){
-
-            }
-            // lower bound
-            if (board[index].getValue() ==  ){
-
-            }
-            // left bound
-            if (board[index].getValue() ==  ){
-
-            }
-            // right bound
-            if (board[index].getValue() ==  ){
-
-            }
-            //top left
-            if (board[index].getValue() ==  ){
-
-            }
-            // top right
-            if (board[index].getValue() ==  ){
-
-            }
-            // bot left
-            if (board[index].getValue() ==  ){
-
-            }
-            // bot right
-            if (board[index].getValue() ==  ){
-
-            }
-            //fully surounded
-            if (board[index].getValue() ==  ){
-
+            if (board[x].getValue() != -1   ){
+                // upper bound
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // lower bound
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // left bound
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // right bound
+                if (board[x].getValue() ==  ){
+                    
+                }
+                //top left
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // top right
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // bot left
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // bot right
+                if (board[x].getValue() ==  ){
+                    
+                }
+            }else {
+                System.out.println("0");
             }
         }
     }

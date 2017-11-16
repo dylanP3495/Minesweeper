@@ -59,6 +59,10 @@ public class Cell implements ActionListener{
     	value = newValue;
     }
     
+    public void incrementValue(){
+     value++;
+    }
+    
     /** This Method tells me if the cell is a bomb.
      * 
      * @return True if it is a bomb, otherwse false.
