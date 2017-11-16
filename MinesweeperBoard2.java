@@ -53,7 +53,7 @@ public class MinesweeperBoard2{
     public void addNums(){
         int x = 0;
         for (i = 1; i <=rows*columns; i++) {
-            if (board[x].getValue() != -1   ){
+            if (board[x].getValue() != -1 ){
                 // upper bound
                 if (board[x].getValue() ==  ){
                     
