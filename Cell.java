@@ -3,7 +3,7 @@
  * Write a description of class Cell here.
  * 
  * @author Dylan
- * @version 11.13.17
+ * @version 11.16.17
  * 
  * Notes: 
  *    0) make "isbomb" method

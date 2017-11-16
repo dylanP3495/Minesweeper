@@ -3,7 +3,7 @@
  * Write a description of class Minesweeper here.
  * 
  * @author Dylan
- * @version 11.13.17
+ * @version 11.16.17
  */
 import java.lang.Math;
 import javax.swing.*;
