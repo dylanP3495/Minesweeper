@@ -30,7 +30,6 @@ public class MinesweeperBoard2{
         frame.pack();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
-        addNums();
     }
 
     public MinesweeperBoard2(){
@@ -50,7 +49,47 @@ public class MinesweeperBoard2{
         }
     }
 
-    
+    public void addNums(){
+        int x = 0;
+        for (i = 1; i <=rows*columns; i++) {
+            if (board[x].getValue() != -1 ){
+                // upper bound
+                if (board[x].getValue() == rows - 9 ){
+                    
+                }
+                // lower bound
+                if (board[x].getValue() == rows ){
+                    
+                }
+                // left bound
+                if (board[x].getValue() == columns - 9 ){
+                    
+                }
+                // right bound
+                if (board[x].getValue() == columns ){
+                    
+                }
+                //top left
+                if (board[x].getValue() == (rows * columns) -100 ){
+                    board[]
+                }
+                // top right
+                if (board[x].getValue() == (rows * columns) - ){
+                    
+                }
+                // bot left
+                if (board[x].getValue() ==  ){
+                    
+                }
+                // bot right
+                if (board[x].getValue() ==  ){
+                    
+                }
+            }else {
+                System.out.println("0");
+            }
+        }
+    }
 
     /**
      * This method is used for testing and will be deleted if using the GUI.
