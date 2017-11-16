@@ -24,6 +24,7 @@
  *    3)make the "add Bombs" method
  *       *bomb = -1, prints as "X"*
  *       *make sure it makes the correct # of bombs, it likes to lie*
+ *       
  *    4) create the "add Nums" method
  *       *hardest method to make...idk, just do your best for now*
  *    5) make it look pretty (ui)*add spaces in between, (0 0 0 0 0)*
