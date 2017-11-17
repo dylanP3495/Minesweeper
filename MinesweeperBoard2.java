@@ -30,7 +30,6 @@ public class MinesweeperBoard2{
         frame.pack();
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.setVisible(true);
-        addNums();
     }
 
     public MinesweeperBoard2(){
@@ -40,12 +39,12 @@ public class MinesweeperBoard2{
     public void addBombs(int bombs)
     { // throws Exception{
         for (int i = 1; i <= bombs; i++) {
-            int index = (int) (Math.random() *( rows * columns));
+            int x = (int) (Math.random() *( rows * columns));
 
-            if(board[index].getValue() == -1 ){
+            if(board[x].getValue() == -1 ){
                 i--;
             }else{
-                board[index].setValue(-1);
+                board[x].setValue(-1);
             }
         }
     }
@@ -55,27 +54,27 @@ public class MinesweeperBoard2{
         for (i = 1; i <=rows*columns; i++) {
             if (board[x].getValue() != -1 ){
                 // upper bound
-                if (board[x].getValue() ==  ){
+                if (board[x].getValue() == rows - 9 ){
                     
                 }
                 // lower bound
-                if (board[x].getValue() ==  ){
+                if (board[x].getValue() == rows ){
                     
                 }
                 // left bound
-                if (board[x].getValue() ==  ){
+                if (board[x].getValue() == columns - 9 ){
                     
                 }
                 // right bound
-                if (board[x].getValue() ==  ){
+                if (board[x].getValue() == columns ){
                     
                 }
                 //top left
-                if (board[x].getValue() ==  ){
-                    
+                if (board[x].getValue() == (rows * columns) -100 ){
+                    board[]
                 }
                 // top right
-                if (board[x].getValue() ==  ){
+                if (board[x].getValue() == (rows * columns) - ){
                     
                 }
                 // bot left
@@ -117,5 +116,4 @@ public class MinesweeperBoard2{
         }
         return panel;
     }
-
 }
