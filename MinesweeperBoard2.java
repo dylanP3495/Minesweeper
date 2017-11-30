@@ -63,7 +63,7 @@ public class MinesweeperBoard2{
                 }
 
                 // bot left
-                if ( (i <= (rows * columns)) && (i % columns != (columns + 1)) ){
+                if ( (i <= (rows * columns)) && (i % columns != 0) ){
                     board[i - columns - 1].incrementValue();
                 }
 
@@ -73,7 +73,7 @@ public class MinesweeperBoard2{
                 }
 
                 // left bound
-                if (){
+                if (&& (i % columns != 0)){
                     board[i].incrementValue();
                 }
 

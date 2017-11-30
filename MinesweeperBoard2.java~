@@ -51,7 +51,7 @@ public class MinesweeperBoard2{
 
     public void addNums(){
         for (int i = 1; i < rows*columns; i++) {
-            if (board[i].getValue() == -1 ){//is it a bomb
+            if (board[i].getValue() == -1 ){//bomb
                 //top left
                 if ((i >= columns) && (i % columns != 0) ){
                     board[i - columns -1].incrementValue();
@@ -63,7 +63,7 @@ public class MinesweeperBoard2{
                 }
 
                 // bot left
-                if ( (i <= (rows * columns)) && (i % columns != (columns + 1)) ){
+                if ( (i <= (rows * columns)) && (i % columns != 0) ){
                     board[i - columns - 1].incrementValue();
                 }
 
@@ -73,8 +73,8 @@ public class MinesweeperBoard2{
                 }
 
                 // left bound
-                if (){
-                    board[i].incrementValue();
+                if (&& (i % columns != 0)){
+                    board[i].incrementValue(  );
                 }
 
                 // right bound
