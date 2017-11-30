@@ -50,45 +50,48 @@ public class MinesweeperBoard2{
     }
 
     public void addNums(){
-        int x = 0;
-        for (int i = 1; i <=rows*columns; i++) {
-            if (board[x].getValue() != -1 ){
-                // left bound
-                if (board[x].getValue() == columns - 9 ){
-
-                }
-                // right bound
-                if (board[x].getValue() == columns ){
-
-                }
+        for (int i = 1; i < rows*columns; i++) {
+            if (board[i].getValue() == -1 ){//bomb
                 //top left
-                if (board[x].getValue() == (rows * columns) -100 ){
-
+                if ((i >= columns) && (i % columns != 0) ){
+                    board[i - columns -1].incrementValue();
                 }
+
                 // top right
-                if (board[x].getValue() == rows){
-
+                if ((i >= columns) && (i % columns != (columns - 1))){
+                    board[i - columns + 1].incrementValue();
                 }
+
                 // bot left
-                if (board[x].getValue() == rows - 9 ){
-
+                if ( (i <= (rows * columns)) && (i % columns != (columns + 1)) ){
+                    board[i - columns - 1].incrementValue();
                 }
+
                 // bot right
-                if (board[x].getValue() == (rows*columns)-9 ){
-
+                if ( (i >= (rows * columns)) && (i % columns != (columns - 1)) ){
+                    board[i].incrementValue();
                 }
+
+                // left bound
+                if (){
+                    board[i].incrementValue();
+                }
+
+                // right bound
+                if (){
+                    board[i].incrementValue();
+                }
+
                 // upper bound
-                if (board[x].getValue() == rows - 9 ){
-
+                if (){
+                    board[i].incrementValue();
                 }
-                // lower bound
-                if (board[x].getValue() == rows ){
 
+                // lower bound
+                if (){
+                    board[i].incrementValue();
                 }
             }
-        }
-        if (board[x].getValue() == -1){
-            //play explodey 
         }
     }
 
