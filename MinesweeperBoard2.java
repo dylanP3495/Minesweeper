@@ -48,7 +48,8 @@ public class MinesweeperBoard2{
             }
         }
     }
-/**    public void addNums(){
+
+    public void addNums(){
         for (int i = 1; i < rows*columns; i++) {
             if (board[i].getValue() == -1 ){//bomb
                 //top left
@@ -93,7 +94,7 @@ public class MinesweeperBoard2{
             }
         }
     }
-*/
+
     /**
      * This method is used for testing and will be deleted if using the GUI.
      *  It is still required for all students.
